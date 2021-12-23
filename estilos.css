@@ -1,0 +1,45 @@
+.buscar{
+    position: absolute;
+    padding: 45px;
+}
+
+.buscar input{
+    width:0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+.w{position: absolute;
+    background: #440080;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.buscar:hover input{
+    width:240px;
+}
+
+.buscar input:focus{
+    width: 240px;
+    
+}
+
+.comentario{
+    position: relative;
+    top: 40px; left: 680px;
+}
+
+.btnn{
+    position: relative;
+    top: 35px; left: 680px;
+}
+

@@ -1,0 +1,17 @@
+
+.boxs{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.none{
+    display: none;
+}
